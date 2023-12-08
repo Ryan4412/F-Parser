@@ -1,0 +1,33 @@
+(*
+-----VALID SYNTAX FOR F-SHARP PROGRAM-----
+
+1) if ( sum + n ) > ( sum + n ) then write ( sum + n ) else write ( sum - n ) fi
+2) for i = zero to max step i do if ( sum + n ) > ( sum + n ) then write ( sum + n ) else write ( sum - n ) fi done
+3) sum := ( sum + n * n + n )
+4) sum := 0 read powfejfpo for i = 0 to max step i do if ( sum + n ) > ( sum + n ) then write ( sum + n ) else write ( sum - n ) fi done
+5) sum := 0 read ihewif for i = 0 to max step i do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) done fi done
+6) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) == ( sum + sum ) then write ( sum + n ) fi else write ( sum + n ) fi
+7) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) == ( sum + sum ) then sum := 0 read ihewif for i = 0 to max step i do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) done fi done fi fi
+8) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) == ( sum + sum ) then sum := 0 read ihewif for i = 0 to max do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) done fi done fi fi
+9) if ( ( sum + n ) ) > ( ( sum - n ) ) then write ( sum + n ) fi
+10) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) == ( sum + sum ) then sum := 0 read ihewif for i = 0 to max do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) done fi done fi fi write ( sum + i )
+
+11) for id = id to id do if ( sum + n ) > ( sum + m ) then write ( sum + n ) for id = id to id step id do read sum if ( sum + n ) == ( sum + m ) then write ( sum + n ) else for id = id to id do write ( sum + n ) done fi done fi done
+
+with spaces instead of tabs: for id = id to id do if ( sum + n ) > ( sum + m ) then write ( sum + n ) for id = id to id step id do read sum if ( sum + n ) == ( sum + m ) then write ( sum + n ) else for id = id to id do write ( sum + n ) done fi done fi done
+
+?? note sure if valid or invalid, havent done a parse tree for it yet?? 12) if ( ( sum + n ) > ( sum + n ) ) > ( ( sum - n ) > ( sum + m ) ) then write ( sum + n ) fi
+
+-----INVALID SYNTAX FOR F-SHARP PROGRAM-----
+
+1) if ( sum + n ) > ( sum + n ) then write ( sum + n ) else write ( sum - n ) fi fi
+2) for i = zero to max step i do if ( sum + n )) > ( sum + n ) then write ( sum + n ) else write ( sum - n ) fi done
+3) sum := ( sum + n * n + n ))
+4) sum := 0 read powfejfpo for i = 0 to max step i do if (( sum + n ) > ( sum + n ) then write ( sum + n ) else write ( sum - n ) fi done
+5) sum := 0 read ihewif for i = 0 to max step i do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) done fi done fi
+6) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) = ( sum + sum ) then write ( sum + n ) fi else write ( sum + n ) fi done
+7) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) = ( sum + sum ) then sum := 0 read ihewif for i = 0 to max step i do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) fi done fi fi
+8) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) = ( sum + sum ) then sum := 0 read ihewif for i = 0 to max step step do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) done fi done fi fi
+9) if ( ( sum + n ) ) > ( ( sum - n ) ) ) then write ( sum + n ) fi
+10) if ( sum + 0 ) < ( sum + n ) then if ( sum * n ) = ( sum + sum ) then sum := 0 read ihewif for i = 0 to max do if ( sum + n ) > ( sum - n ) then for i = 0 to max step i do write ( sum + i ) done fi done fi fi write ( sum + i ) fi
+11) if ( sum + 1 ) > ( sum + n ) then read feowih else write ( sum + n ) else write ( nextStatement + n ) fi *)
