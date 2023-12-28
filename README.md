@@ -1,4 +1,4 @@
-**Rules of Language**
+**Rules of Language**     
 program ⟶ stmt_list      
 stmt_list ⟶ stmt stmt_list | ε      
 stmt ⟶ assignment | read_stmt | write_stmt | for_loop | if_stmt      
